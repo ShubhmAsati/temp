@@ -1,0 +1,426 @@
+    1  curl -sSl https://get.docker.com
+    2  curl -sSl https://get.docker.com|sh
+    3  apt-get update
+    4  apt-get install git vim make 
+    5  git clone https://github.com/liggitt/kubernetes.git
+    6  cd kubernetes/
+    7  ls
+    8  make clean quick-release
+    9  git version
+   10  cd ..
+   11  rm -fr kubernetes/
+   12  git clone --depth 1 https://github.com/kubernetes/kubernetes.git
+   13  cd kubernetes/
+   14  make quick-release
+   15  cd ..
+   16  rm -fr kubernetes/
+   17  git clone https://github.com/kubernetes/kubernetes.git
+   18  cd kubernetes/
+   19  make quick-release
+   20  ls
+   21  cd _output/
+   22  ls
+   23  cd images/ges
+   24  cd ..
+   25  docker images
+   26  kubelet
+   27  kubectl
+   28  ls
+   29  build/run.sh
+   30  vf _output
+   31  cd _output/
+   32  ls
+   33  cd images
+   34  ls
+   35  ls -a
+   36  ls -l
+   37  cd kube-build\:build-87d8588f80-5-v1.12.9-1/
+   38  ls
+   39  cat Dockerfile 
+   40  export KUBERNETES_NO_PROXY=127.0.0.1
+   41  ls
+   42  cd ~
+   43  dockre images
+   44  docker images
+   45  docker run -it kube-build:build-87d8588f80-5-v1.12.9-1
+   46  docker ps
+   47  docker images
+   48  docker exec -it b79a
+   49  docker ps
+   50  docker images
+   51  docker run -it b79a
+   52  ls
+   53  cd ku
+   54  pwd
+   55  cd /home/shashanksoni271296/
+   56  ls
+   57  cd kubernetes/
+   58  ls
+   59  make WHAT=cmd/kubelet
+   60  ls
+   61  docker ps
+   62  docker images
+   63  docker run -it b79a
+   64  ls
+   65  cat Makefile
+   66  cat Makefile|grep build
+   67  ls
+   68  cd _output
+   69  ls
+   70  cd release-
+   71  cd release-tars/
+   72  ls
+   73  ls
+   74  cd ..
+   75  ls
+   76  cd images/
+   77  ls
+   78  cd ..
+   79  ccd release-images/
+   80  cd release-images/
+   81  ls
+   82  ls -l
+   83  cd amd64/
+   84  sl
+   85  ls
+   86  docker images
+   87  docker run -it b79a
+   88  ls
+   89  cd ../../..
+   90  ls 
+   91  rm -fr _output/
+   92  ls
+   93  make all
+   94  make quick-release
+   95  docker images
+   96  ls
+   97  docker ps
+   98  cd _output/
+   99  ls
+  100  cd release-images/
+  101  ls
+  102  cd amd64/
+  103  ls
+  104  docker load < kube-scheduler.tar 
+  105  docker images
+  106  docker run -it 0dd6
+  107  ls
+  108  docker ps
+  109  cd ..
+  110  cd ..
+  111  ls
+  112  ls
+  113  cd release-tars/
+  114  ls
+  115  docker load < kubernetes-server-linux-amd64.tar.gz 
+  116  docker load < kubernetes.tar.gz 
+  117  ls
+  118  cd ..
+  119  ls
+  120  cd release-images/
+  121  ls
+  122  cd amd64/
+  123  ls
+  124  cd ../..
+  125  ls
+  126  cd release-stage/
+  127  ls
+  128  cd server/
+  129  ls
+  130  cd linux-amd64/
+  131  ls
+  132  cd kubernetes/
+  133  ls
+  134  cd server/
+  135  ls
+  136  cd bin
+  137  ls
+  138  cd ../../../../..
+  139  ls
+  140  cd ..
+  141  ls
+  142  cd images/
+  143  ls
+  144  cd ..
+  145  ls
+  146  cd release-tars/
+  147  ls
+  148  tar -xvf kubernetes.tar.gz 
+  149  ls
+  150  cd kubernetes
+  151  ls
+  152  cd hack/
+  153  ls
+  154  cd ..
+  155  ls
+  156  cat README.md 
+  157  ls
+  158  cd hack
+  159  ls
+  160  cd lib
+  161  ls
+  162  cd ..
+  163  cd ..
+  164  ls
+  165  cd client/
+  166  ls
+  167  cat README 
+  168  cd ..
+  169  ls
+  170  cd hack/
+  171  ls
+  172  cd lib
+  173  ls
+  174  cd BUILD 
+  175  cat BUILD 
+  176  ls
+  177  cd ..
+  178  cd ..
+  179  ls
+  180  cd version 
+  181  cat version 
+  182  ls
+  183  cd server
+  184  ls
+  185  cat README 
+  186  cd ..
+  187  ls
+  188  cd cluster/
+  189  ls
+  190  sh kube.sh
+  191  kube.sh
+  192  sh kube-up.sh
+  193  cd ..
+  194  ls
+  195  cd hack/
+  196  ls
+  197  cd lib
+  198  ls
+  199  init.sh
+  200  sh init.sh
+  201  ls
+  202  cd ..
+  203  cd ..
+  204  cd ..
+  205  ls
+  206  cd ..
+  207  ls
+  208  cd release-images/
+  209  ls
+  210  cd an
+  211  cd amd64/
+  212  ls
+  213  ls
+  214  docker ps
+  215  docker ps -a
+  216  docker load < kube-scheduler.tar 
+  217  docker images
+  218  docker run -d 0dd6
+  219  docker logs 9d45
+  220  docker ps
+  221  docker ps -a
+  222  docker describe 9d45
+  223  cd ../..
+  224  ls
+  225  cd release-tars/
+  226  ls
+  227  cd kubernetes
+  228  ls
+  229  cd hack/
+  230  ls
+  231  cd lib
+  232  ls
+  233  cat BUILD 
+  234  ls
+  235  cd .
+  236  cd ..
+  237  cd ..
+  238  ls
+  239  cd cluster/
+  240  ls
+  241  get-kube-local.sh
+  242  sh get-kube-local.sh
+  243  sh get-kube.sh
+  244  cd ~
+  245  apt-get install -y gcc make socat git
+  246  curl -sL https://storage.googleapis.com/golang/go1.8.linux-amd64.tar.gz | tar -C /usr/local -zxf -
+  247  ls
+  248  export GOPATH=/gopath
+  249  export PATH=$PATH:$GOPATH/bin:/usr/local/bin:/usr/local/go/bin/
+  250  ls /
+  251  go
+  252  curl -sL https://storage.googleapis.com/golang/go1.13inux-amd64.tar.gz | tar -C /usr/local -zxf -
+  253  curl -sL https://storage.googleapis.com/golang/go1.13linux-amd64.tar.gz | tar -C /usr/local -zxf -
+  254  curl -sL https://storage.googleapis.com/golang/go1.13.linux-amd64.tar.gz | tar -C /usr/local -zxf -
+  255  go version
+  256  ls
+  257  git clone --depth 1 https://github.com/kubernetes/kubernetes
+  258  git clone https://github.com/kubernetes/kubernetes $GOPATH/src/k8s.io/kubernetes
+  259  ls
+  260  cd $GOPATH/src/k8s.io/kubernetes
+  261  export KUBERNETES_PROVIDER=local
+  262  hack/local-up-cluster.sh
+  263  go version
+  264  ls
+  265  cd ~
+  266  ls
+  267  cd /home/shashanksoni271296/
+  268  ls
+  269  cd kubernetes
+  270  ls
+  271  ls
+  272  ls
+  273  cd ..
+  274  ls
+  275  cd kubernetes/
+  276  ls
+  277  cd _output/
+  278  ls
+  279  cd release-
+  280  cd release-tars/
+  281  ls
+  282  cd kubernetes
+  283  cd ..
+  284  ls
+  285  cd ..
+  286  ls
+  287  cd release-stage/
+  288  ls
+  289  cd srver
+  290  cd server
+  291  ls
+  292  cd linux-amd64/
+  293  ls
+  294  cd kubernetes/
+  295  ls
+  296  cd server
+  297  ls
+  298  cd bin
+  299  s
+  300  ls
+  301  ./kubeadm init
+  302  systemctl
+  303  ls
+  304  ./kubeadm version
+  305  pwd
+  306  cp ./* /usr/bin
+  307  kubectl
+  308  kubectl get pods
+  309  kubeadm init 
+  310  docker version
+  311  systemctl enable kubelet.service
+  312  kubeadm init --ignore-preflight-errors=true
+  313  kubeadm init --ignore-preflight-errors
+  314  kubeadm init --apiserver-advertise-address=10.xxx.xxx.xx --pod-network-cidr=10.xx.x.x/16 --kubernetes-version=v1.17.0
+  315  kubeadm init --apiserver-advertise-address=10.1.1.1 --pod-network-cidr=10.1.1.1/16 --kubernetes-version=v1.17.0
+  316  kubeadm init --apiserver-advertise-address=10.1.1.1 --pod-network-cidr=10.1.1.1/16 
+  317  cd ..
+  318  cd ..
+  319  cd ..
+  320  cd ..
+  321  cd ..
+  322  ls
+  323  cd ..
+  324  ls
+  325  cd release-
+  326  cd release-images/
+  327  ls
+  328  cd amd64/
+  329  ls
+  330  docker images
+  331  ls
+  332  ls
+  333  docker load kube-apiserver.tar 
+  334  docker load < kube-apiserver.tar 
+  335  ls
+  336  docker load < conformance-amd64.tar 
+  337  docker load < hyperkube-amd64.tar
+  338  docker load < kube-controller-manager.tar 
+  339  docker load kube-proxy.tar 
+  340  docker load <kube-proxy.tar 
+  341  docker load < kube-scheduler.tar 
+  342  docker imaes
+  343  docker images
+  344  kubeadm init --apiserver-advertise-address=10.1.1.1 --pod-network-cidr=10.1.1.1/16 --kubernetes-version=v1.17.0-alpha.0.1170_90f41951cd53ec
+  345  kubeadm init --apiserver-advertise-address=10.1.1.1 --pod-network-cidr=10.1.1.1/16 --kubernetes-version=v5
+  346  kubeadm init --apiserver-advertise-address=10.1.1.1 --pod-network-cidr=10.1.1.1/16 --kubernetes-version=v1.17.0
+  347  docker images
+  348  docker tag k8s.gcr.io/kube-apiserver-amd64:v1.17.0-alpha.0.1170_90f41951cd53ec k8s.gcr.io/kube-apiserver:v1.17.0
+  349  kubeadm init --apiserver-advertise-address=10.1.1.1 --pod-network-cidr=10.1.1.1/16 --kubernetes-version=v1.17.0
+  350  docker tag k8s.gcr.io/kube-controller-manager-amd64:v1.17.0-alpha.0.1170_90f41951cd53ec k8s.gcr.io/kube-controller-manager:v1.17.0
+  351  docker tag k8s.gcr.io/kube-scheduler-amd64:v1.17.0-alpha.0.1170_90f41951cd53ec k8s.gcr.io/kube-scheduler:v1.17.0
+  352  docker tag k8s.gcr.io/kube-proxy-amd64:v1.17.0-alpha.0.1170_90f41951cd53ec k8s.gcr.io/kube-proxy:v1.17.0
+  353  kubeadm init --apiserver-advertise-address=10.1.1.1 --pod-network-cidr=10.1.1.1/16 --kubernetes-version=v1.17.0
+  354  docker ps -a | grep kube | grep -v pause
+  355  systemctl status kubelet
+  356  apt-get install kubelet
+  357  systemctl daemon-reload
+  358  systemctl status kubelet
+  359  curl -O https://storage.googleapis.com/configs.kuar.io/kubelet.service
+  360  mv kubelet.service /etc/systemd/system/
+  361  cat /etc/systemd/system/kubelet.service
+  362  systemctl daemon-reload
+  363  systemctl enable kubelet
+  364  systemctl start kubelet
+  365  systemctl status kubelet
+  366  systemctl start kubelet.service
+  367  systemctl status docker.service
+  368  ls
+  369  cd ..
+  370  cd ..
+  371  ls
+  372  cd release-
+  373  cd release-stage/
+  374  ls
+  375  cd server
+  376  ls
+  377  cd linux-amd64/
+  378  ls
+  379  cd kubernetes/
+  380  ls
+  381  cd server/
+  382  ls
+  383  cd bin/
+  384  ls
+  385  ./kubelet
+  386  kubelet
+  387  kubeadm init --apiserver-advertise-address=10.1.1.1 --pod-network-cidr=10.1.1.1/16 --kubernetes-version=v1.17.0
+  388  cat <<EOF > /etc/yum.repos.d/kubernetes.repo
+[kubernetes]
+name=Kubernetes
+baseurl=https://packages.cloud.google.com/yum/repos/kubernetes-el7-x86_64
+enabled=1
+gpgcheck=1
+repo_gpgcheck=1
+gpgkey=https://packages.cloud.google.com/yum/doc/yum-key.gpg
+        https://packages.cloud.google.com/yum/doc/rpm-package-key.gpg
+EOF
+
+  389  apt-get update && apt-get install -y apt-transport-https curl
+  390  curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key add -
+  391  cat <<EOF >/etc/apt/sources.list.d/kubernetes.list
+deb https://apt.kubernetes.io/ kubernetes-xenial main
+EOF
+
+  392  apt-get update
+  393  apt-get install -y kubelet
+  394  ystemctl status kubelet.service
+  395  systemctl status kubelet.service
+  396  ls /etc/kubernetes/manifests/
+  397  ls
+  398  sudo systemctl daemon-reload
+  399  sudo systemctl enable kubelet
+  400  systemctl start kubelet
+  401  journalctl -xe
+  402  ls
+  403  journalctl -xe
+  404   systemctl daemon-reload
+  405   systemctl enable kubelet
+  406  systemctl start kubelet
+  407  systemctl status kubelet
+  408  systemctl status kubelet
+  409  [A
+  410  systemctl status kubelet
+  411  systemctl status kubelet
+  412  history
+  413  history > ~/history.txt

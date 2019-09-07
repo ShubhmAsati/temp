@@ -1,0 +1,47 @@
+    1  kubeadm init --apiserver-advertise-address=10.1.1.1 --pod-network-cidr=10.1.1.1/16 --kubernetes-version=v1.17.0
+    2  kubeadm init --apiserver-advertise-address=10.1.1.1 --pod-network-cidr=10.1.1.1/16 --kubernetes-version=v1.17.0
+    3  kubeadm init --apiserver-advertise-address=10.1.1.1 --pod-network-cidr=10.1.1.1/16 --kubernetes-version=v1.17.0
+    4  rm -fr /etc/kubernetes/
+    5  kubeadm init --apiserver-advertise-address=10.1.1.1 --pod-network-cidr=10.1.1.1/16 --kubernetes-version=v1.17.0
+    6  kubectl 
+    7  kubectl get pods
+    8  kubelet get pods
+    9  kubeadm init --apiserver-advertise-address=10.1.1.1 --pod-network-cidr=10.1.1.1/16 --kubernetes-version=v1.17.0
+   10  ps aux|kubeadm
+   11  ps aux|grep kubeadm
+   12  kill -9  9820 
+   13* 
+   14  ps aux|grep kube
+   15  kubeadm init --apiserver-advertise-address=10.1.1.1 --pod-network-cidr=10.1.1.1/16 --kubernetes-version=v1.17.0
+   16  netstat -nlpt|grep :10250
+   17  kubelet
+   18  curl -O https://storage.googleapis.com/configs.kuar.io/kubelet.service
+   19  ls
+   20  cat kubelet.service 
+   21  ls /usr/bin
+   22  chmod +x /usr/bin/kubelet
+   23  cat kubelet.service 
+   24  PROJECT_ID=$(curl -H "Metadata-Flavor: Google" \
+  http://metadata.google.internal/computeMetadata/v1/project/project-id)
+   25  export PROJECT_ID=$(curl -H "Metadata-Flavor: Google" \
+>   http://metadata.google.internal/computeMetadata/v1/project/project-id)
+   26  export PROJECT_ID=$(curl -H "Metadata-Flavor: Google" \
+>   http://metadata.google.internal/computeMetadata/v1/project/project-id)
+   27  ls
+   28  echo $PROJECT_ID
+   29  echo ${PROJECT_ID}
+   30  curl -H "Metadata-Flavor: Google"   http://metadata.google.internal/computeMetadata/v1/project/project-id
+   31  vi kubelet.service 
+   32  sudo mv kubelet.service /etc/systemd/system/
+   33  sudo systemctl daemon-reload
+   34  sudo systemctl enable kubelet
+   35  sudo systemctl start kubelet
+   36  systemctl status kubelet.service
+   37  ls
+   38  cd /etc/systemd/system
+   39  ls
+   40  vi kubelet.service 
+   41   systemctl start kubelet
+   42  systemctl daemon reload
+   43  kubeadm init --apiserver-advertise-address=10.1.1.1 --pod-network-cidr=10.1.1.1/16 --kubernetes-version=v1.17.0
+   44  history >~/history1.txt
