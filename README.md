@@ -28,17 +28,17 @@
 </head>
 <body>
 	<h1>Directory Tree</h1><p>
-	<a href="github.com/ShubhmAsati/temp">github.com/ShubhmAsati/temp</a><br>
-	├── <a href="github.com/ShubhmAsati/temp/a/">a</a><br>
-	│   ├── <a href="github.com/ShubhmAsati/temp/a/b/">b</a><br>
-	│   │   ├── <a href="github.com/ShubhmAsati/temp/a/b/b/">b</a><br>
-	│   │   │   └── <a href="github.com/ShubhmAsati/temp/a/b/b/y">y</a><br>
-	│   │   └── <a href="github.com/ShubhmAsati/temp/a/b/x">x</a><br>
-	│   └── <a href="github.com/ShubhmAsati/temp/a/z">z</a><br>
-	├── <a href="github.com/ShubhmAsati/temp/history1.txt">history1.txt</a><br>
-	├── <a href="github.com/ShubhmAsati/temp/history.txt">history.txt</a><br>
-	├── <a href="github.com/ShubhmAsati/temp/README.md">README.md</a><br>
-	└── <a href="github.com/ShubhmAsati/temp/tree.md">tree.md</a><br>
+	<a href=""></a><br>
+	├── <a href="/a/">a</a><br>
+	│   ├── <a href="/a/b/">b</a><br>
+	│   │   ├── <a href="/a/b/b/">b</a><br>
+	│   │   │   └── <a href="/a/b/b/y">y</a><br>
+	│   │   └── <a href="/a/b/x">x</a><br>
+	│   └── <a href="/a/z">z</a><br>
+	├── <a href="/history1.txt">history1.txt</a><br>
+	├── <a href="/history.txt">history.txt</a><br>
+	├── <a href="/README.md">README.md</a><br>
+	└── <a href="/tree.md">tree.md</a><br>
 	<br><br>
 	</p>
 	<p>
